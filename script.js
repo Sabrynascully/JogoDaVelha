@@ -37,7 +37,7 @@ reset();
     warning = '';
 
     let ramdom = Math.floor(Math.random() * 2);
-    player = (ramdom === 0) ? 'x' : '0';
+    player = (ramdom === 0) ? 'x' : 'o';
   
     for(let i in square){
         square[i] = '';
